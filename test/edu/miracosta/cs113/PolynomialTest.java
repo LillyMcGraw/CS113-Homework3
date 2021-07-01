@@ -19,8 +19,11 @@
 
 package edu.miracosta.cs113;
 
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
+
 import org.junit.Test;
-import static org.junit.Assert.*;
+//import static org.junit.Assert.*;
 
 public class PolynomialTest {
 
@@ -47,8 +50,7 @@ public class PolynomialTest {
                                                     new Term(150, 9),
                                                     new Term(15, 5),
                                                     new Term(-2, 2),
-                                                    new Term(-4, -3),
-    };
+                                                    new Term(-4, -3), };
 
 
     //TERMS + POLYNOMIALS with unique terms (no duplicate terms = terms with same exponents)
